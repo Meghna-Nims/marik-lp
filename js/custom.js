@@ -1,4 +1,4 @@
-// HEADER FIXED ON SCROLL
+
 document.addEventListener("DOMContentLoaded", function () {
   const header = document.querySelector("header");
   let ticking = false;
