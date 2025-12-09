@@ -1042,7 +1042,7 @@ align-content: center;}
   .contact-info img { height:22px; }
   .contact-info a { font-size:15px; }
   .brand-logo { font-size:18px; }
-
+.hero-left .subtitle{ margin: 0 ;}
 
     .hero{
     position:relative;
@@ -1057,10 +1057,12 @@ align-content: center;}
   }
 
   .hero-left{
+    left: 40px;
     position:relative;
+    margin-top: 25px !important;
     width:90%;
     margin:0;
-    padding:30px 20px;
+    padding:12px 20px;
     background:#ffffffde;
     border-radius:12px;
     z-index:2;
@@ -1212,6 +1214,8 @@ width: 100%; }
 .labsSection .labsCarouselWrap{padding-left: 0;padding-right: 0;}
     .labsRedStrip {
         left: -10px;
-        width: calc(100% - 80px);
+        width: calc(100% - 20px);
     }
+    .programTitle{text-align: center;}
+    .programSub{text-align: center;}
 }
