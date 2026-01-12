@@ -136,7 +136,7 @@ header.fixed-header .contact-info {
   background-position: center;
     background-size: cover;
   padding: 0;
-  height: 85vh;
+  height: 100vh;
   color: #000;
   overflow: hidden;
 }
@@ -159,8 +159,8 @@ header.fixed-header .contact-info {
     top: 0;
     bottom: 0;
     padding: 25px;
-    height: 85vh;
-    padding-top: 100px;
+    height: 100vh;
+    padding-top: 105px;
 }
 .hero-left h1 {
   font-size: 36px;
@@ -195,10 +195,8 @@ padding-top: 4vh;
 }
 
 .right-form {
-  width: 380px;
   margin-top: 5%;
-    height: 60vh;
-    background: #cf2027;
+    height: 100%;
     border-radius: 12px;
     padding: 25px;
     color: #fff;
@@ -287,6 +285,7 @@ padding-top: 4vh;
   opacity: 0.5;
   margin-top: 40px;
   margin-bottom: 20px;
+  
 }
 
 .placements-slider .owl-item.center {
@@ -295,8 +294,8 @@ padding-top: 4vh;
   opacity: 1;
   z-index: 3;
   position: relative;
-  margin-left: 20px;
-  margin-right: 50px;
+  margin-left: 1%;
+  margin-right: 3%;
 }
 
 .card-body {
@@ -325,6 +324,7 @@ padding-top: 4vh;
   font-size: 16px !important;
   line-height: 1.05 !important;
   letter-spacing: 1.2px !important;
+  color: #fff;
 }
 
 .student-name .surname {
@@ -619,9 +619,10 @@ padding-top: 4vh;
 .programTitle{
     color: #cf2027;
     font-weight: 600;
+    font-size: 34px;
 }
 .programSub{
-    font-size: 28px;
+    font-size: 34px;
     font-weight: 500;
 }
 
@@ -896,7 +897,7 @@ margin-right: 80px !important;
   .contact-info a { font-size:16px; }
   .contact-info small { font-size:10px; }
 .right-form
-{height: 37vh; margin-right: 1.5vh; margin-top: 3vh;}
+{ margin-right: 1.5vh; margin-top: 3vh;}
 
 .hero{
     height: 46vh;
@@ -974,8 +975,7 @@ min-width: 140px;;
         height: 55vh;padding-top: 135px; max-width: 230px    ;
     }
 .hero-left h1{padding-top: 1vh; font-size: 25px;}
-    .right-form {
-        height: 44vh}
+    
             .logo-row img {
         height: 20px;
     }
@@ -1094,7 +1094,7 @@ align-content: center;}
   transform: scale(0.5) !important;
  
 }
-.placements-title{padding-top: 465px;}
+.placements{padding-top: 600px;}
 .placements-slider .owl-item.center {
   transform: scale(0.88) !important;
   margin-left: -30px !important;
