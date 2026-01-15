@@ -610,7 +610,7 @@ padding-top: 4vh;
 /*--- labs end---*/
 
 
-/* --- Programs start--*/
+/* --- Programs start
 .programSection {
   padding: 50px 0;
   background: #ffffff;
@@ -710,7 +710,95 @@ padding-top: 4vh;
   transform: translateY(-6px);
   box-shadow: 0 20px 38px rgba(0,0,0,0.22);
 }
-/*-- programs end---*/
+ programs end---*/
+
+ /*-----PROGRAMS Start----*/
+.program-section {
+    padding: 60px 0;
+    background:
+        radial-gradient(circle at 1px 1px, #eaeaea 1px, transparent 0);
+    background-size: 22px 22px;
+}
+
+.program-section .program-title {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.program-section .program-title span {
+    color: #cf2027;
+}
+
+.program-section .program-subtitle {
+    max-width: 780px;
+    margin: 12px auto 0;
+    color: #555;
+    font-size: 20px;
+}
+
+/* Tabs */
+.program-section .program-tabs .nav-link {
+    border-radius: 30px;
+    padding: 12px 26px;
+    font-weight: 600;
+    color: #000;
+    box-shadow: 0px 10px 10px -10px #ccc;
+    border: 1px solid #efefef;
+    font-weight: 500;
+    background:#fff;
+    cursor: pointer;
+}
+
+.program-section .program-tabs .nav-link.active {
+    background: #cf2027;
+    border: 1px solid #cf2027;
+    color: #fff;
+    font-weight: 700;
+}
+
+/* Accordion */
+.accordion-button::after{
+  display: none;
+}
+.program-section .program-accordion .accordion-item {
+    border-radius: 16px;
+    margin-bottom: 14px;
+    overflow: hidden;
+    border: none;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.program-section .accordion-button:not(.collapsed) {
+    background: #e5ecff;
+    color: #000000;
+    box-shadow: none;
+    outline: none
+}
+
+.program-section .program-accordion .accordion-button {
+    font-weight: 600;
+}
+
+.program-section .program-accordion ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.program-section .program-accordion li {
+    padding: 6px 0;
+    position: relative;
+    padding-left: 16px;
+}
+
+.program-section .program-accordion li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #cf2027;
+    font-size: 20px;
+}
+
+/*-----PROGRAMS End----*/
 
 
 
@@ -889,6 +977,9 @@ margin-right: 80px !important;
  .programLeft { width: 380px; padding: 30px 22px; }
   .courseCard { padding: 14px 20px; font-size: 15px; }
   .programContainer { gap: 16px; }
+  .program-section {
+        padding: 50px 0;
+    }
 }
 @media (max-width: 991.98px) {
   
@@ -1025,6 +1116,54 @@ align-content: center;}
   .programRight { width: 100%; display:block; align-items: stretch; }
   .courseGrid { grid-template-columns: repeat(2, 1fr); gap: 16px 18px; justify-content: center; }
   .courseCard { width: 100%; box-sizing: border-box; }
+
+  .program-section .program-title {
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    .program-section {
+        padding: 40px 0;
+    }
+
+    .program-section .program-subtitle {
+        font-size: 18px;
+    }
+
+    .program-section .text-center.mb-5 {
+        margin-bottom: 20px !important;
+    }
+
+    .program-section .program-tabs .nav-link {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    .program-section .program-tabs .nav-link{
+        white-space: nowrap;
+    }
+
+    .program-section ul.nav {
+        justify-content: flex-start !important;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: 10px;
+
+    }
+
+   
+
+    .program-section .program-accordion li {
+        padding-left: 16px;
+        line-height: 16px;
+        font-size: 14px;
+    }
+
+    .program-section .program-accordion .accordion-button {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+
+
 }
 
 @media (max-width: 575.98px) {
