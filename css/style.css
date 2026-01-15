@@ -801,6 +801,154 @@ padding-top: 4vh;
 /*-----PROGRAMS End----*/
 
 
+/* ---------------- life at nims start---------------- */
+
+.nims-life-section {
+    background: #cf2027;
+    padding: 60px 0;
+    position: relative;
+}
+
+.nims-life-section .col-md-4 {
+    position: relative;
+}
+
+.section-title {
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.life-card {
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.life-card img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.life-overlay.static {
+    top: 0;
+    color: #fff;
+    text-align: center;
+    padding: 16px;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+}
+
+.life-overlay h5 {
+    font-weight: bold;
+    margin-bottom: 6px;
+    font-size: 26px;
+    text-shadow: 0px 1px 2px #000;
+}
+
+.life-overlay p {
+    font-size: 16px;
+    margin: 0;
+}
+
+
+/* ---------------- life at nims end ---------------- */
+
+
+/* ---------------- hostel start ---------------- */
+
+.hostel-section {
+    background: #fbf6ee;
+}
+
+.hostel-label {
+    font-size: 60px;
+    font-weight: 700;
+    color: #ffdadc;
+    display: block;
+    line-height: 1;
+    position: relative;
+    bottom: 0;
+    z-index: 0;
+}
+
+.hostel-title {
+    font-size: 38px;
+    font-weight: 700;
+    color: #000;
+    position: relative;
+    z-index: 1;
+}
+
+.hostel-desc {
+    font-size: 14px;
+    color: #555;
+    max-width: 90%;
+}
+
+.hostel-image img,
+.room-image img {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.hostel-section .hostel-image img {
+    height: 570px;
+    object-position: bottom;
+}
+
+.facility-box {
+    background: #fff;
+    padding: 39px 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+}
+
+.hostel-room img {
+    width: 100%;
+}
+
+#videoModal .btn-close {
+    position: absolute !important;
+    right: -47px !important;
+    top: 0px;
+    z-index: 1;
+    opacity: 1;
+    font-weight: bold;
+}
+
+.search-program {
+    margin-bottom: 40px;
+}
+
+.search-program select {
+    background-color: transparent;
+    color: #555;
+    border-color: #ccc !important;
+}
+
+.search-program select:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #ccc !important;
+}
+
+.search-program {
+    display: none !important;
+}
+
+
+/* ---------------- hostel end ---------------- */
+
+
 
 /*-- next scholarship start ---*/
 
@@ -1162,8 +1310,19 @@ align-content: center;}
         padding: 8px 10px;
         font-size: 14px;
     }
-
-
+.hostel-title {
+        font-size: 26px;
+    }
+.hostel-section .hostel-image {
+        margin-bottom: 15px;
+    }
+    .hostel-section .hostel-image img {
+        height: 560px;
+        object-position: bottom;
+    }
+    .life-card img {
+        height: 435px;
+    }
 }
 
 @media (max-width: 575.98px) {
@@ -1358,4 +1517,30 @@ width: 100%; }
     }
     .programTitle{text-align: center;}
     .programSub{text-align: center;}
+
+    .hostel-section .row.gy-4 .col-md-4 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .hostel-section .hostel-image img {
+        height: 360px;
+        object-position: bottom;
+    }
+   
+    .hostel-title br {
+        display: none;
+    }
+    .hostel-title {
+        font-size: 30px;
+    }
+    .hostel-label {
+        bottom: 0;
+    }
+    .facility-box {
+        padding: 20px 15px;
+        height: 85px;
+        margin-bottom: 0px;
+        width: 47%;
+    }
 }

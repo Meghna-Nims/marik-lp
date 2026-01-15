@@ -235,3 +235,15 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+//life at nims slider
+$(".lifeatnims-slider").owlCarousel({
+    items: 1,
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    animateOut: "fadeOut",
+    animateIn: "fadeIn",
+    smartSpeed: 700,
+    dots: false,
+    nav: false,
+});
