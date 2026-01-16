@@ -39,8 +39,8 @@ h3{
   font-size: 36px;
 }
 .container-fluid{
-  max-width: 1340px;
-    margin: 0 auto;
+   width: 100%;
+    max-width: 95%;
 }
 /*-----Global css end----*/
 
@@ -812,13 +812,32 @@ padding-top: 4vh;
 .nims-life-section .col-md-4 {
     position: relative;
 }
-
-.section-title {
-    color: #fff;
-    font-weight: 600;
-    margin-bottom: 40px;
+section {
+    padding:50px 0;
 }
-
+.section-title-nims-life {
+    font-size: 36px;
+    font-weight:800;
+    color:#000;
+    margin-bottom: 50px;
+    margin-bottom: 70px;
+    position: relative;
+    display: inline-block;
+    display: block;
+}
+.section-title-nims-life::after {
+    content: "";
+    width:100%;
+    max-width:5%;
+    height: 4px;
+    position: absolute;
+    bottom:-18px;
+    left:0%;
+    right: 0%;
+    margin: 0 auto;
+    background: rgb(255, 180, 0);
+    border-radius: 99px;
+}
 .life-card {
     position: relative;
     border-radius: 6px;
@@ -1063,6 +1082,7 @@ footer .row .col-md-4 .text-right {
   margin-top: 15px;
 }
 /*-----footer end----*/
+
 .apply-now-fixed{
   position: fixed;
   right: 18px;
@@ -1085,6 +1105,403 @@ footer .row .col-md-4 .text-right {
   opacity: 1;
   visibility: visible !important;
 }
+
+/*-----Success Record Start----*/
+.success-record {
+        background-color: #eef6ff;
+        padding-bottom: 0;
+    background-image: repeating-linear-gradient(60deg, rgba(0, 0, 0, 0.03) 0, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 3px);
+}
+.success-record .topper-holder {
+     position: relative;
+    display: flex;
+    align-items: flex-end;
+    max-width: 100%;
+    box-shadow: 0px 48px 35px -45px #000000c4;
+    margin-left: -19px;
+    }
+
+.success-record .topper-person {
+    width: 100%;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 2;
+    max-width: 60%;
+    }
+
+.success-record .topper-card {
+        background: #FAA626;
+    border-radius: 20px;
+    margin-left: -90px;
+    padding: 14px 20px 14px 90px;
+    min-width: 220px;
+    box-shadow: inset 0px 0px 45px -20px #4c2e00;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 55%;
+    }
+
+.success-record .topper-name {
+    font-size: 23px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: normal;
+    text-shadow: 0px 1px 2px #2f1c00;
+    }
+
+.success-record .topper-lpa {
+    font-size: 45px;
+    font-weight: 800;
+    color: #000;
+    margin: 10px 0;
+    }
+.success-record .topper-brand {
+    background: #fff;
+    padding: 5px 15px;
+    border-radius: 6px;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 8px;
+    }
+
+.success-record .topper-brand img {
+      height: auto;
+      width: 100px !important;
+    }
+
+.success-record .stats-wrapper {
+      width: 100%;
+    }
+
+.success-record .stat-row {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+
+.success-record .stat-box {
+     flex: 1;
+    background: #fff1de;
+    border: 1px solid #fde5c6;
+    border-radius: 20px;
+    gap: 10px;
+    padding: 14px 16px;
+    min-height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 25px 35px -32px #2b3541;
+    text-align: center;
+    }
+
+.success-record .stat-box h4 {
+      font-size: 32px;
+    font-weight: 800;
+    margin: 0;
+    color: #000;
+    }
+
+.success-record .stat-box p {
+          font-size: 16px;
+    margin-top: 4px;
+    line-height: 1.25;
+    height: 30px;
+    }
+
+.placement-sliders .owl-item {
+  opacity: 0.7;
+  transform: scale(1);
+  transition: all 0.4s ease;
+}
+
+.placement-sliders .owl-item.active.center {
+  opacity: 1;
+  transform: scale(1.2);
+  z-index: 2;
+}
+
+.success-record .placement-sliders{
+    margin-top:60px;
+}
+.success-record .placement-sliders .item{
+    margin-top:60px;
+    margin-bottom:85px;
+}
+.success-record .placement-sliders .topper-card{
+    background: #002b5a;
+    box-shadow: none;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.success-record .placement-sliders .topper-holder{
+    margin-left:0px;
+        box-shadow:0px 66px 19px -58px #000000c4;
+            border-radius:30px;
+    overflow: hidden;
+}
+.success-record .placement-sliders .topper-name{
+font-size:22px;
+    margin-bottom: 15px;
+}
+.success-record .placement-sliders .owl-nav{
+     position: absolute;
+    top: 50%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.success-record .placement-sliders .owl-nav button span{
+     background: #fff;
+    width: 40px;
+    height: 40px;
+    display: block;
+    border-radius: 40px;
+    font-size: 28px;
+    line-height: 35px;
+    box-shadow: 0px 0px 10px 1px #bfcad6;
+    border: 1px solid #eff6ff;
+}
+
+.success-record .placement-sliders .owl-nav button.owl-prev{
+left: -40px;
+    position: relative;
+}
+.success-record .placement-sliders .owl-nav button.owl-next{
+right: -40px;
+    position: relative;
+}
+/*-----Success Record End----*/
+
+
+/*-----Accreditations & Affiliations Start----*/
+.honours-wrap{
+    background: radial-gradient(circle at 1px 1px, #eaeaea 1px, transparent 0);
+    background-size: 22px 22px;
+  padding:60px 0 0;
+}
+.honours-wrap .container-fluid{
+position: relative;
+z-index: 2;
+}
+.honours-wrap p {
+   font-size: 24px;
+    font-weight:500;
+        margin-bottom: 50px;
+
+}
+
+.honours-wrap .honours-title span{
+  display:block;
+  font-size:50px;
+  font-weight:800;
+  color:#e53935;
+}
+
+.honours-wrap .honours-title small{
+  display:block;
+  font-size:18px;
+  color:#000;
+  font-weight:600;
+}
+.honours-wrap .honours-logos{
+  display:flex;
+  justify-content:space-around !important;
+  align-items:center;
+  flex-wrap:wrap;
+}
+
+.honours-logos .col-4,
+.honours-logos .col-md-1{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.honours-wrap .honours-logos img{
+  max-height:60px;
+  object-fit:contain;
+}
+
+.honours-wrap .honour-card{
+      background: #fff;
+    border-radius:20px;
+    padding: 18px;
+    height: 100%;
+    box-shadow: 0 50px 50px -70px #0a0a0a;
+    text-align: center;
+    border: 1px solid #e8e8e8;
+}
+
+.honours-wrap .honour-card img{
+     height: auto;
+    margin-bottom: 20px;
+    max-width: 75%;
+}
+
+.honours-wrap .honour-card p{
+  font-size:16px;
+      margin-bottom: 0;
+      font-weight:normal;
+}
+
+.honours-wrap .honour-card span{
+  color:#f57c00;
+  font-weight:700;
+}
+
+.honours-wrap .cert-card{
+  background:#fff;
+  border-radius:20px;
+  padding:15px;
+box-shadow: 0 50px 50px -70px #0a0a0a;
+    text-align: left;
+    border: 1px solid #e8e8e8;
+  display:flex;
+  gap:15px;
+  align-items:center;
+}
+
+.honours-wrap .cert-card img{
+  height:150px;
+}
+
+.honours-wrap .cert-card p{
+  font-size:16px;
+  color: #000;
+  margin:0;
+}
+.honours-wrap .cert-card p span{
+  color:#f57c00;
+  font-weight:700;
+}
+
+
+.honours-wrap .nims-bg{
+  position: relative;
+  width: 100%;
+  min-height: 260px;
+
+  background-image: url("https://nimsuniversity.edu.in/landing-pages/management-2/nims-bg-img.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+
+  margin-top: -200px;
+  opacity: 0.35;
+  z-index: 0;
+
+  overflow: hidden;
+}
+
+.honours-wrap #honoursSplide img{
+  max-height:50px;
+  width:auto;
+  margin:auto;
+  display:block;
+}
+.honours-logos-owl .item{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:10px 0;
+}
+
+.honours-logos-owl img{
+  width:90%;
+}
+
+
+.honours-logos-owl .owl-item img {
+   display: block;
+    width: 100%;
+    box-shadow: 0px 0px 10px 0px #ccc;
+    border-radius: 100px;
+    max-width: 100%;
+    background-color: #f7f6ff;
+    border: 4px solid #fff;
+    max-width: 110px;
+}
+.honours-logos-owl{
+    max-width:80%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
+/*-----Accreditations & Affiliations End----*/
+
+/*-----Scholarship Start----*/
+
+.scholarship{
+  padding: 70px 0;
+    background: radial-gradient(circle at 1px 1px, #ceedfe 1px, #f5ffff9e 0);
+    background-size: 22px 22px;
+    box-shadow: inset 0px 0px 72px -45px #20475e;
+}
+
+.scholarship .upto-title{
+  font-size:48px;
+  font-weight:400;
+  color:#000;
+  line-height:1.2;
+}
+
+.scholarship .upto-title span{
+  font-weight:600;
+}
+
+.scholarship .upto-title strong{
+  font-weight:900;
+}
+
+.scholarship .upto-sub{
+     font-size: 19px;
+    font-weight: 700;
+    color: #000000a6;
+    margin-top: 15px;
+}
+
+
+.scholarship .upto-list{
+  list-style:none;
+  padding:0;
+}
+
+.scholarship .upto-list li{
+      font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color:rgb(57 57 57);
+    padding: 18px 0;
+    border-bottom: 2px solid #abe4ff;
+    box-shadow: 0px 2px 0px 0px #ffffff;
+}
+
+.scholarship .upto-center-img{
+  max-width:100%;
+  margin:auto;
+}
+
+
+.scholarship .upto-btn{
+  background: #0b4f7d;
+    color: #fff;
+    padding: 18px 50px;
+    font-size: 22px;
+    font-weight: 800;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0px 30px 32px -22px #000b0f;
+}
+/*-----Scholarship End----*/
 /*----- Responsive css start----*/
 @media (max-width: 1199.98px) {
  
@@ -1128,6 +1545,30 @@ margin-right: 80px !important;
   .program-section {
         padding: 50px 0;
     }
+
+    .topper-holder {
+        justify-content: center;
+      }
+  
+      .topper-person {
+        width: 150px;
+      }
+      .topper-card {
+        margin-left: -20px;
+        padding-left: 60px;
+        min-width: 240px;
+      }
+
+      .stat-row {
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+
+      .stat-box {
+        width: 48%;
+        min-height: 90px;
+      }
+
 }
 @media (max-width: 991.98px) {
   
@@ -1194,6 +1635,9 @@ min-width: 140px;;
 .labsRedStrip{
     left: 80px;
     width: calc(100% - 200px);
+}
+.honours-wrap .cert-card img {
+    height: 50px;
 }
 }
 
@@ -1323,7 +1767,94 @@ align-content: center;}
     .life-card img {
         height: 435px;
     }
-}
+    
+  .success-record {
+    padding: 40px 0;
+  }
+
+  .success-record .topper-holder {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    box-shadow: none;
+  }
+
+  .success-record .topper-person {
+    max-width: 85%;
+    margin-bottom: -40px;
+  }
+
+  .success-record .topper-card {
+    margin-left: 0;
+    padding: 60px 20px 20px;
+    max-width: 95%;
+    text-align: center;
+  }
+
+  .success-record .topper-name {
+    font-size: 20px;
+  }
+
+  .success-record .topper-lpa {
+    font-size: 36px;
+  }
+
+  .success-record .stat-row {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .success-record .stat-box {
+    flex: 0 0 48%;
+    min-height: auto;
+    padding: 16px 12px;
+  }
+
+  .success-record .stat-box h4 {
+    font-size: 26px;
+  }
+
+  .success-record .stat-box p {
+    font-size: 14px;
+    height: auto;
+  }
+
+  .success-record .placement-sliders {
+    margin-top: 40px;
+  }
+
+  .success-record .placement-sliders .item {
+    margin: 40px 0 60px;
+  }
+
+  .success-record .placement-sliders .topper-holder {
+    border-radius: 20px;
+    box-shadow: 0px 35px 25px -30px #00000080;
+  }
+
+  .success-record .placement-sliders .topper-person {
+    max-width: 80%;
+  }
+
+  .success-record .placement-sliders .topper-card {
+    height: auto;
+    padding: 20px;
+  }
+
+  .success-record .placement-sliders .topper-name {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .success-record .placement-sliders .owl-nav {
+    display: none;
+  }
+
+  .placement-sliders .owl-item.active.center {
+    transform: scale(1.05);
+  }
+
+  }
 
 @media (max-width: 575.98px) {
     h3{
@@ -1372,17 +1903,12 @@ align-content: center;}
   }
 
   .right-form{
-    left: -18px;
     position:relative;
-    width:90%;
     margin:0 auto;
-    background:#cf2027;
-    padding:25px 15px;
     border-radius:12px;
-    box-shadow:0 26px 26px rgba(168,0,52,0.24);
-    z-index:3;
-    height: 100%;
-    top: 32px;
+        z-index: 3;
+        height: 100%;
+        top: -25px;
   }
   .logo-row img {
     height: 20px;}
@@ -1393,7 +1919,7 @@ align-content: center;}
   transform: scale(0.5) !important;
  
 }
-.placements{padding-top: 600px;}
+.placements{padding-top:280px;}
 .placements-slider .owl-item.center {
   transform: scale(0.88) !important;
   margin-left: -30px !important;
@@ -1542,5 +2068,94 @@ width: 100%; }
         height: 85px;
         margin-bottom: 0px;
         width: 47%;
+    }
+    .topper-holder {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .topper-card {
+        margin-left: 0;
+        margin-top: -7px;
+        padding: 14px 18px;
+        text-align: center;
+      }
+
+      .topper-brand {
+        justify-content: center;
+      }
+
+      .stat-box {
+        width: 100%;
+      }
+
+      .honours-wrap{
+        padding-top: 250px;
+      }
+      .honours-wrap .honours-title span {
+        
+    font-size: 36px;}
+
+    .honours-wrap p {
+    font-size: 19px;}
+    .honours-logos-owl .owl-item img{
+      max-width: 55%;
+    }
+    .success-record .topper-person {
+        max-width: 85%;
+        margin-bottom: 5px;
+    }
+    .success-record .placement-sliders .topper-person {
+        max-width: 60%;
+    }
+    
+  .success-record .stats-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .success-record .stat-row {
+    display: contents;
+  }
+
+  .success-record .stat-box {
+    min-height: 160px;
+    padding: 18px 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .success-record .stat-box h4 {
+    font-size: 28px;
+  }
+
+  .success-record .stat-box p {
+    font-size: 15px;
+    height: auto;
+  }
+
+
+.scholarship .upto-title {
+    font-size: 24px;
+}
+  .scholarship .upto-sub {
+    font-size: 18px;}
+    .upto-list li br{
+        display: none;
+    } 
+    .scholarship .upto-list li {
+    font-size: 18px;
+    padding: 8px 0;
+
+    } 
+    .scholarship .upto-btn{
+      font-size: 14px;
+    font-weight: 500;
+    }
+    .scholarship .mt-5{
+      margin-top: 10px !important;
     }
 }
