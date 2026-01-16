@@ -818,26 +818,14 @@ section {
 .section-title-nims-life {
     font-size: 36px;
     font-weight:800;
-    color:#000;
+    color:#ffffff;
     margin-bottom: 50px;
     margin-bottom: 70px;
     position: relative;
     display: inline-block;
     display: block;
 }
-.section-title-nims-life::after {
-    content: "";
-    width:100%;
-    max-width:5%;
-    height: 4px;
-    position: absolute;
-    bottom:-18px;
-    left:0%;
-    right: 0%;
-    margin: 0 auto;
-    background: rgb(255, 180, 0);
-    border-radius: 99px;
-}
+
 .life-card {
     position: relative;
     border-radius: 6px;
@@ -1107,6 +1095,29 @@ footer .row .col-md-4 .text-right {
 }
 
 /*-----Success Record Start----*/
+.section-title {
+    font-size: 36px;
+    font-weight:800;
+    color:#000;
+    margin-bottom: 50px;
+    margin-bottom: 70px;
+    position: relative;
+    display: inline-block;
+    display: block;
+}
+.section-title::after {
+    content: "";
+    width:100%;
+    max-width:10%;
+    height: 4px;
+    position: absolute;
+    bottom:-18px;
+    left:0%;
+    right: 0%;
+    margin: 0 auto;
+    background: rgb(255, 180, 0);
+    border-radius: 99px;
+}
 .success-record {
         background-color: #eef6ff;
         padding-bottom: 0;
@@ -1454,7 +1465,7 @@ box-shadow: 0 50px 50px -70px #0a0a0a;
 }
 
 .scholarship .upto-title span{
-  font-weight:600;
+  font-weight:400;
 }
 
 .scholarship .upto-title strong{
@@ -1876,7 +1887,7 @@ align-content: center;}
 
     .hero{
     position:relative;
-    height:auto;
+    height:60vh;
     padding:50px 0 30px;
     overflow:visible;
   }
@@ -2090,7 +2101,7 @@ width: 100%; }
       }
 
       .honours-wrap{
-        padding-top: 250px;
+        padding-top: 500px;
       }
       .honours-wrap .honours-title span {
         
